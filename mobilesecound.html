@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo mobile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .hr1 {
+            position: absolute;
+            left: 100px;
+            top: 200px;
+            color: gray;
+            width: 180px;
+        }
+        .hr2 {
+            position: absolute;
+            right: 380px;
+            top: 200px;
+            color: gray;
+            width: 180px;
+        }
+        .maincontainer {
+            height: 600px;
+            width: 900px;
+
+            margin-top: 100px;
+            
+            
+        }
+        .paraa {
+            position: relative;
+            left: 300px;
+            top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+           
+            font-size: 25px;
+            
+        }
+        .container {
+           padding: 60px;
+        }
+        .back {
+            padding: 50px 400px 350px 400px;
+
+        }
+        .box {
+            border: solid red 1px;
+            height: 250px; width: 180px;
+            margin: 50px 200px 100px 320px;
+            border-radius: 5px;
+            color: red;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding-left: 30px;
+            padding-top: 30px;
+            text-align: center;
+            box-shadow:2px 2px 10px black;
+            
+        }
+        .line {
+            text-decoration-line: line-through;
+            padding-left: -20px;
+        }
+        .fafaa {
+            position: relative;
+            top: 50px;
+            bottom: 1px;
+            left: 60px;
+        }
+        @media screen and (max-width: 360px) and (min-width:359px) {
+           
+                  
+            
+            .hr1 { display: none;
+                
+            }
+            .back {
+                position: relative;
+                bottom: 117px;
+                right: 400px;
+                
+            }
+            .maincontainer {
+                width: 360px;
+                height: 640px;
+                position: relative;
+
+            }
+            .box  {
+               position: relative;
+               right: 310px;
+               bottom: 150px;
+               width: 45%;
+               
+               
+               
+            }
+            .container {
+                position: relative;
+                right: 250px;
+                margin-top: -180px;
+                
+                
+            }
+            .paraa {
+                position: relative;
+                
+                left: 250px;
+            }
+            .fafaa {
+                position: relative;
+               left: 55px;
+            }
+           
+        }
+         
+        
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="container">
+            <hr class="hr1">
+            <p class="paraa">
+            <b>Trip to paris</b>
+        </p>
+            <hr class="hr2">
+            
+
+        
+        </div> 
+        <a href="./mobilefirst.html" class="back">
+            <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
+        </a>
+        <div class="box">
+            Trip to Paris
+            <hr>
+            <p class="line">  completed task</p>
+            <form action="" class="form">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Pending task</label>
+                </form>    
+                <br>
+            <a href="./mobileforth.html" class="fafaa">
+                <i class="fa fa-plus-circle" style="font-size:48px;color:red"></i>
+    
+           </a>
+        </div>
+   </div>       
+</body>
+</html>
